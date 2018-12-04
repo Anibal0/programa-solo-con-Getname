@@ -1,0 +1,21 @@
+package com.example.anip.myapplication;
+
+//Se crea la clase Hero el cuál contendrá los constructores y los métodos GET del modelo del servicio API
+
+public class Hero {
+
+    private String name;
+   
+
+
+    public Hero(String name) {
+        this.name = name;
+       
+
+    }
+
+    public String getName() {
+        return name;
+    }
+
+}
